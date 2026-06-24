@@ -1,46 +1,40 @@
-💊 Medi-Fill – Smart Medicine Expiry & Refill Management System
+Medi-Fill – Smart Medicine Expiry and Refill Management system
 
-Medi-Fill is an intelligent medicine management application designed to simplify how people track and manage their medications. The system helps users monitor medicine expiry dates, receive refill reminders, and avoid harmful drug interactions.
+So Medi-Fill is basically a clever medicine tracking app it s meant to make it easier for people to keep control of what they take. It helps users remember expiry dates, get refill nudges, and steer clear of risky drug interactions. I mean yeah, the whole point is less stress, more safety.
 
-The application leverages AI-powered Optical Character Recognition (OCR) to automatically extract medicine details from labels, eliminating manual data entry. By integrating trusted medical databases, Medi-Fill provides drug interaction warnings and safety alerts to improve medication safety.
+The thing uses AI based Optical Character Recognition (OCR) so it can pull medicine details straight from the label, so you don’t have to type everything by hand. On top of that it connects with trusted medical databases, which then enables drug interaction warnings and general safety alerts, kind of like an extra layer of care.
 
-With automated notifications and smart tracking, Medi-Fill helps users maintain better medication adherence and avoid using expired medicines.
+Through automated notifications and some smart monitoring, Medi-Fill supports better medication adherence, and it also reduces the chance of using something that s already expired. Simple right?
 
-🚀 Key Features
+Main Things You Get (Key Features)
 
-📷 AI Medicine Label Scanning
+Medicine label scan with AI
 
-Users can scan medicine labels using their phone camera. The system uses Google Vision API OCR to automatically extract medicine information.
+You point your phone camera at the medicine label and scan. Medi-Fill then relies on Google Vision API OCR to pull the medicine information automatically, and not require the usual manual entry.
 
-⏳ Expiry Date Monitoring
+Watching expiry dates
 
-Tracks medicine expiry dates and alerts users before medicines expire to prevent unsafe consumption.
+It keeps an eye on expiry date info and sends alerts before medicines expire so people don’t accidentally consume something unsafe. It s more like prevention than reaction.
 
-🔔 Smart Refill Reminders
+Refill reminders that actually help
 
-Notifies users when medicines are running low and need to be refilled.
+When supplies are getting low, Medi-Fill sends reminders so the medicine can be refilled in time. No last minute scrambling, hopefully.
+Detecting drug interactions
 
-⚠️ Drug Interaction Detection
+This part is backed by the OpenFDA API, it helps spot potentially harmful interactions between medicines. So, you get a warning before things become a problem.
 
-Integrated with OpenFDA API to identify potentially harmful interactions between medicines.
+Secure sign-in
 
-🔐 Secure User Authentication
+User accounts and sign-in flow are handled via Firebase Authentication, so access is controlled in a more secure way.
 
-User accounts and authentication are managed using Firebase Authentication.
+Notifications in real time
 
-📱 Real-time Notifications
+For timely alerts about expiry dates and refills, it uses Firebase Cloud Messaging.
 
-Uses Firebase Cloud Messaging to send timely alerts for expiry dates and refills.
+How to install
 
-📦 Installation
-
-Clone the repository
-
-Navigate into the project folder
-
-Install dependencies
-
-Start the server using the command
-
+- Clone the repository  
+- Navigate into the project folder  
+- Install dependencies  
+- Start the server using the command  
 "npx expo start"
-
